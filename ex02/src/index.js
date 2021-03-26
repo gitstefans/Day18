@@ -25,15 +25,18 @@ function* insideGenerator3() {
 
 var iterator = myGenerator();
 const fifteenArray = [];
-var result = "";
+//var result = "";
 for(let i = 0; i < 15; i++){
     fifteenArray.push(iterator.next().value);
-    result += fifteenArray[i] + "#, ";
-    if(i === 14) {
-        result += "undefined!";
+    // result += fifteenArray[i] + "#, ";
+    // if(i === 14) {
+    //     result += "undefined!";
+    // }
+    if(i === 14){
+        fifteenArray.push("undefined!")
     }
    
 }
-console.log(fifteenArray);
-console.log(result);
+console.log(fifteenArray.join("#, "));
+//console.log(result);
 module.exports = { fifteenArray, myGenerator };

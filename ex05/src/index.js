@@ -7,8 +7,8 @@ let shoppingList = new Map([
     ["Apple", 1.5]
 ]);
 
-const arrKey = [];
-const arrValue = [];
+let arrKey = [];
+let arrValue = [];
 
 for(let key of shoppingList.keys()) {
     arrKey.push(key);

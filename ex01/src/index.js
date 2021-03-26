@@ -1,3 +1,4 @@
+let myArr = [];
 // Only change code below this line
 function* multiplication(x) {
   for (let i = 0; i < x; i++) {
@@ -6,8 +7,7 @@ function* multiplication(x) {
     yield x;
   }
 }
-let myArr = [];
-console.log("h", myArr);
+//console.log("h", myArr);
 var num = multiplication(3);
 
 for (let i = 0; i < 3; i++) {

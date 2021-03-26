@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+header {
+    background-color: rgb(88, 88, 88);
+    height: 90px;
+}
+#branding {
+    width: 50%;
+}
+#branding h1 {
+    margin-left: 150px;
+}
+nav{
+    margin-left: 600px;
+}
+ul {
+    display: flex;
+}
+li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+.current a{
+    color: orangered;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#showcase{
+    height: 520px;
+}
+#showcase .container{
+    background-image: url(../img/gigi-logo.png);
+    height: 100%;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    
+}
+#showcase .container h1{
+    font-size: 44px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+#showcase .container p{
+    font-size: 20px;
+    color: white;
+}   
+#newsletter .container {
+    height: 90px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 88, 88);
+}
+#newsletter .container h1{
+    width: 50%;
+    margin-left: 10%;
+    color: white;
+}
+#newsletter .container form {
+    width: 50%;
+    text-align: right;
+    margin-right: 10%;
+}
+#newsletter .container form input{
+    width: 250px;
+    height: 28px;
+}
+#newsletter .container form button {
+    height: 37px;
+    width: 100px;
+    background-color: rgb(255, 102, 0);
+}
+#boxes .container .box{
+    text-align:center;
+    width: 300px;
+    margin: 0 auto;
+}
+#boxes .container .box img {
+    width: 100px;
+    height: 100px;
+}
+footer{
+    height: 70px;
+    text-align: center;
+    background-color: rgb(255, 102, 0);
+}
